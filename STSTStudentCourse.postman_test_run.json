@@ -1,0 +1,636 @@
+{
+	"id": "8159d5cc-ae41-41bf-80f2-88a4b8c3e10c",
+	"name": "STSTStudentCourse",
+	"timestamp": "2023-08-25T02:15:59.967Z",
+	"collection_id": "29184252-8f9a279c-4a96-4267-aa22-5b1b68f07952",
+	"folder_id": 0,
+	"environment_id": "29184252-86e36588-37eb-4d7e-9dda-42e73794663c",
+	"totalPass": 37,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-25T02:15:52.109Z",
+	"totalFail": 9,
+	"results": [
+		{
+			"id": "69504ba5-db22-4bc5-a730-5be3b4bdca7f",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 581,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				581
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "58bf3ff3-5be1-4bc0-ac3f-6742d91c20f6",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 272,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				272
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "fda8b403-ad5e-448a-a809-62dc17e33064",
+			"name": "Get entry per ID - Valid ID",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "c210240a-6c5b-4a85-97e5-2c55af1360ec",
+			"name": "Get entry per ID - Invalid ID(params not using TODO ID)",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 261,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have OK string": true,
+				"Verify that body contains title": true,
+				"Verify that title is Fusio": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that body contains title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that title is Fusio": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				261
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have OK string": true,
+					"Verify that body contains title": true,
+					"Verify that title is Fusio": true
+				}
+			]
+		},
+		{
+			"id": "799e3639-4340-4d71-9670-6df5a0ef51ee",
+			"name": "Get All Books",
+			"url": "https://simple-books-api.glitch.me/books",
+			"time": 247,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				247
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "9085c243-2196-4db6-9419-0e473635166c",
+			"name": "Get Books by ID",
+			"url": "https://simple-books-api.glitch.me/books/1",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				246
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "affd4476-07b1-436e-80e1-04e78c8a7d07",
+			"name": "Get Books by Type",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 252,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"to check the id number is 1": true,
+				"to check the name is Viscount Who Loved Me": true,
+				"to check the type is fiction": true,
+				"Verify that name is The Russian ": false
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the id number is 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the name is Viscount Who Loved Me": {
+					"pass": 1,
+					"fail": 0
+				},
+				"to check the type is fiction": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that name is The Russian ": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				252
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"to check the id number is 1": true,
+					"to check the name is Viscount Who Loved Me": true,
+					"to check the type is fiction": true,
+					"Verify that name is The Russian ": false
+				}
+			]
+		},
+		{
+			"id": "172a32b9-ac56-433c-a475-15499b4ff064",
+			"name": "Place a book order - using book ID",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name have an Unauthorized string": true,
+				"Verify that Undefined is true": false,
+				"Body contains orgerId string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that Undefined is true": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body contains orgerId string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name have an Unauthorized string": true,
+					"Verify that Undefined is true": false,
+					"Body contains orgerId string": false
+				}
+			]
+		},
+		{
+			"id": "9fd45880-cb4a-4a7d-8245-95fc54c382a5",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 338,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name have an Unauthorized string": true,
+				"Verify that Undefined is true": false,
+				"Body contains orgerId string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that Undefined is true": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body contains orgerId string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				338
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name have an Unauthorized string": true,
+					"Verify that Undefined is true": false,
+					"Body contains orgerId string": false
+				}
+			]
+		},
+		{
+			"id": "9497688e-26e9-4567-9341-bea63bf0b46a",
+			"name": "Get an order - using orderID",
+			"url": "https://simple-books-api.glitch.me/orders/AaX7WGCUeHH3lRwGRh57M",
+			"time": 264,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true,
+				"Status code name have an Unauthorized string": true,
+				"Verify that Undefined is true": false,
+				"Body contains orgerId string": false
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name have an Unauthorized string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Verify that Undefined is true": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body contains orgerId string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				264
+			],
+			"allTests": [
+				{
+					"Status code is 401": true,
+					"Status code name have an Unauthorized string": true,
+					"Verify that Undefined is true": false,
+					"Body contains orgerId string": false
+				}
+			]
+		},
+		{
+			"id": "0440dae6-4a77-4dbe-af5b-ea2ffa3d99cb",
+			"name": "Update an order",
+			"url": "https://simple-books-api.glitch.me/orders/",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				236
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9cb8a074-9f57-437e-8551-1bfa84c19b97",
+			"name": "Delete an order",
+			"url": "https://simple-books-api.glitch.me/orders/rObASEWYlVrRX6cTAEgbt",
+			"time": 255,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				255
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8658f04-247b-4d29-b389-f2be112c1394",
+			"name": "Register API Client",
+			"url": "https://simple-books-api.glitch.me/api-clients/",
+			"time": 256,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				256
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0fadc101-d933-4d95-9714-d73a44b6b6aa",
+			"name": "Get API Status",
+			"url": "https://simple-books-api.glitch.me/status",
+			"time": 250,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				250
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3972,
+	"collection": {
+		"requests": [
+			{
+				"id": "69504ba5-db22-4bc5-a730-5be3b4bdca7f",
+				"method": "GET"
+			},
+			{
+				"id": "58bf3ff3-5be1-4bc0-ac3f-6742d91c20f6",
+				"method": "GET"
+			},
+			{
+				"id": "fda8b403-ad5e-448a-a809-62dc17e33064",
+				"method": "GET"
+			},
+			{
+				"id": "c210240a-6c5b-4a85-97e5-2c55af1360ec",
+				"method": "GET"
+			},
+			{
+				"id": "799e3639-4340-4d71-9670-6df5a0ef51ee",
+				"method": "GET"
+			},
+			{
+				"id": "9085c243-2196-4db6-9419-0e473635166c",
+				"method": "GET"
+			},
+			{
+				"id": "affd4476-07b1-436e-80e1-04e78c8a7d07",
+				"method": "GET"
+			},
+			{
+				"id": "172a32b9-ac56-433c-a475-15499b4ff064",
+				"method": "POST"
+			},
+			{
+				"id": "9fd45880-cb4a-4a7d-8245-95fc54c382a5",
+				"method": "GET"
+			},
+			{
+				"id": "9497688e-26e9-4567-9341-bea63bf0b46a",
+				"method": "GET"
+			},
+			{
+				"id": "0440dae6-4a77-4dbe-af5b-ea2ffa3d99cb",
+				"method": "POST"
+			},
+			{
+				"id": "9cb8a074-9f57-437e-8551-1bfa84c19b97",
+				"method": "DELETE"
+			},
+			{
+				"id": "b8658f04-247b-4d29-b389-f2be112c1394",
+				"method": "POST"
+			},
+			{
+				"id": "0fadc101-d933-4d95-9714-d73a44b6b6aa",
+				"method": "GET"
+			}
+		]
+	}
+}
